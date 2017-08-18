@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
+    <meta name='mobile-web-app-capable' content='yes'>
+    <title>Blog Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <!-- Fondo del body -->
+  <body class="fondo-body">
+    <div class="row cabezal">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <img src="img/Atomship.jpg" class="logo">
+      </div>
+      <!-- Redes sociales -->
+      <div class="col-lg-5 col-lg-offset-3 col-md-5 col-md-offset-3 col-sm-6 col-xs-10">
+        <a href="#"><img src="img/you.png" class="img-rounded img-social"></a>
+        <a href="#"><img src="img/instagram.svg" class="img-rounded img-social"></a>
+        <a href="#"><img src="img/google.png" class="img-rounded img-social"></a>
+        <a href="#"><img src="img/fb.png" class="img-rounded img-social"></a>
+        <a href="#"><img src="img/twitter.jpg" class="img-rounded img-social"></a>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <div class="row">
+      <div class="navbar navbar-inverse">
+          <a class="btn btn-md btn-danger col-lg-2 col-md-2 col-sm-12 col-xs-12" href="#" role="button">Inicio</a>
+          <a class="btn btn-md btn-danger col-lg-2 col-md-2 col-sm-12 col-xs-12" href="#" role="button">Artistas</a>
+          <a class="btn btn-md btn-danger col-lg-2 col-md-2 col-sm-12 col-xs-12" href="#" role="button">Grupos</a>
+          <a class="btn btn-md btn-danger col-lg-2 col-md-2 col-sm-12 col-xs-12" href="#" role="button">Top 10</a>
+          <a class="btn btn-md btn-danger col-lg-2 col-md-2 col-sm-12 col-xs-12" href="#" role="button">Letras</a>
+          <a class="btn btn-md btn-danger col-lg-2 col-md-2 col-sm-12 col-xs-12" href="#" role="button">Acordes</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-8">
+        <div class="jumbotron">
+          <!-- Primera publiccacion -->
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-11 col-xs-11">
+              <h3 class="text-jumbotront text-justify">Conociendo un poco acerca de la banda Ra</h3>
+              <p class="text-jumbotron text-justify"><strong>Ra</strong> are an American alternative metal/post-grunge band from Los Angeles, California, taking their name from the Egyptian sun god, Ra. The band was formed in 1996, and took off around 2002, when their song "Do You Call My Name" from their album "From One" was released. Their music was described as "exotic not familiar, heavy not funky, direct not sophisticated, sensual not soulful, unrelenting not cathartic."
+              The band is known for their hit songs "Do You Call My Name", "Fallen Angels", "Don't Turn Away", and "Broken Hearted Soul". To date, Ra has sold 400,000+ albums in North America alone.
+            </p>
+            </div>
+            <div class="col-lg-5 col-md-5">
+              <img class="img-posters col-sm-11 col-xs-11" src="img/Ra.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+              <img class="user" src="img/icon.png" alt="">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+              <div class="form-group">
+                <label for="comment"></label>
+                <textarea class="form-control" rows="1" id="comment" placeholder="Comentarios..."></textarea>
+              </div>
+            </div>
+          </div>
+          <!-- Segunda Publicacion -->
+          <div class="row">
+            <div class="col-lg-5 col-md-5">
+              <img class=" col-sm-11 col-xs-11 img-posters" src="img/link.jpg">
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-11 col-xs-11">
+              <h3 class="text-jumbotront">Linkin Park</h3>
+              <p class="text-jumbotron text-justify"><strong>Linkin Park</strong> es una banda estadounidense de rock alternativo procedente de Agoura Hills, California. Formada en 1996, el grupo estuvo inicialmente integrado por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Mark Wakefield, este último como voz principal. La banda inició en ese mismo año sus primeros trabajos musicales de manera independiente y posterior a esto grabaron su primer material llamado Xero; sin embargo no tuvieron gran éxito en la búsqueda de un sello discográfico ya que nadie mostró interés por su trabajo, lo que ocasionó la renuncia de Mark Wakefield.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+              <img class=" user" src="img/icon.png" alt="">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
+              <div class="form-group">
+                <label for="comment"></label>
+                <textarea class="form-control" rows="1" id="comment" placeholder="Comentarios..."></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+<!-- Boton buscador -->
+        <div class="row">
+          <form>
+            <div class="input-group">
+              <div class="row">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar...">
+                  </div>
+              </div>
+              <div class="row">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Ir</button>
+                </span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Lista del buscador -->
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <ul>
+              <li>Pentatonix</li>
+              <br/>
+              <li>Allele</li>
+              <br/>
+              <li>Breaking Benjamin</li>
+              <br/>
+              <li>Crossfade</li>
+              <br/>
+              <li>Benny Benassi</li>
+              <br/>
+              <li>Emphatic</li>
+              <br/>
+              <li>Five</li>
+              <br/>
+              <li>Good Charlotte</li>
+              <br/>
+              <li>N'Sync</li>
+              <br/>
+              <li>BBVS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
